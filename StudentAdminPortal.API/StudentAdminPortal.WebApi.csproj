@@ -21,9 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StudentAdminPortal.BIZNES\StudentAdminPortal.BIZNES.csproj" />
-    <ProjectReference Include="..\StudentAdminPortal.DataBase\StudentAdminPortal.DataBase.csproj" />
-    <ProjectReference Include="..\StudentAdminPortal.MODEL\StudentAdminPortal.MODEL.csproj" />
+    <ProjectReference Include="..\StudentAdminPortal.BIZNES\StudentAdminPortal.Application.csproj" />
+    <ProjectReference Include="..\StudentAdminPortal.DataBase\StudentAdminPortal.Persistence.csproj" />
+    <ProjectReference Include="..\StudentAdminPortal.MODEL\StudentAdminPortal.Domain.csproj" />
   </ItemGroup>
 
 </Project>

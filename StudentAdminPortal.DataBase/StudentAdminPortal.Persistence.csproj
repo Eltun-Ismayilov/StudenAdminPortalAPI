@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StudentAdminPortal.MODEL\StudentAdminPortal.MODEL.csproj" />
+    <ProjectReference Include="..\StudentAdminPortal.MODEL\StudentAdminPortal.Domain.csproj" />
   </ItemGroup>
 
 </Project>
