@@ -10,5 +10,6 @@ namespace StudentAdminPortal.BIZNES.Interface
     public interface IStudentRepo
     {
         Task<List<Student>> Get();
+        Task<Student> Details(Guid id);
     }
 }

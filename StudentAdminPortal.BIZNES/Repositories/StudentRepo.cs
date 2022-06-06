@@ -18,6 +18,12 @@ namespace StudentAdminPortal.BIZNES.Repositories
         {
             this.db = db;
         }
+
+        public async Task<Student> Details(Guid id)
+        {
+            return await db.Student.Include(nameof(Gender)).Include(nameof(Address)).FirstOrDefaultAsync(x => x.Id == id);
+        }
+
         public async Task<List<Student>> Get()
         {
             return await db.Student.Include(nameof(Gender)).Include(nameof(Address)).ToListAsync();
